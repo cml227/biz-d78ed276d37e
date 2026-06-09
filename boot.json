@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "builtAt": "2026-06-09T06:40:38.914Z",
+  "builtAt": "2026-06-09T09:10:32.833Z",
   "bizId": "biz-d78ed276d37e",
   "keyVersion": "v1",
   "wasmObfuscated": true,
@@ -37,18 +37,12 @@
     "refresh": true
   },
   "summary": {
-    "totalFiles": 17,
-    "totalSizeBytes": 643612,
+    "totalFiles": 11,
+    "totalSizeBytes": 338333,
     "prefixes": [
+      "clinics/",
       "collections/",
-      "combination/",
-      "dimension/",
-      "generator/",
-      "interactiveStory/",
-      "multiPerson/",
-      "schemas/",
-      "scoring/",
-      "textInput/"
+      "schemas/"
     ]
   },
   "search": {
@@ -57,20 +51,20 @@
     "entryCount": 7
   },
   "manifest": {
-    "filename": "b5284265d89fa6811f6a2f81da88ecce480a34a5bc6241fb13ccb5bac4392374.enc",
+    "filename": "54f631fc4685733985ea5aa311ec20df812ebf4d6935f0ce897fca0206b3d82f.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "VeteOTg1e0+1fXCW",
-    "tagBase64": "w6rqE1m6Nz/GxvX/yKOn/Q==",
+    "ivBase64": "3Y5nL8SXcqTQGbvB",
+    "tagBase64": "GYVEUCWcBrdHXM2inZl4iQ==",
     "ivLen": 12,
     "tagLen": 16,
-    "plaintextLen": 5947,
-    "ciphertextLen": 5947
+    "plaintextLen": 3935,
+    "ciphertextLen": 3935
   },
   "wasm": {
-    "filename": "6ad3a3483de2aecefb6c41548091bf18fbb427bbbbfb865a92905b073cfcd1ba.enc",
+    "filename": "228fb9a707868720b1f1f0a8f5201b481b0a6ee84ec0225014ee434467217ab6.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "vOaFi+iD44v5IY8x",
-    "tagBase64": "FAqGaR2mTexCboduJCQnZA==",
+    "ivBase64": "DucNIaasHup4pVCb",
+    "tagBase64": "qgXqU8xt7ib3cIGAjFfJ0w==",
     "ivLen": 12,
     "tagLen": 16,
     "plaintextLen": 29404,
@@ -79,15 +73,15 @@
   "anchors": [
     {
       "index": 2,
-      "filename": "0c77679e126147a25c12d8e99af4c68ed477bd37134624f194e318de73b52f45.enc"
+      "filename": "c30248ba99c3e9a2a0c89e7045ef64bb51dc98c5eed4ccd726cd60fba7ad607c.enc"
     },
     {
       "index": 3,
-      "filename": "e6d411cdcd1c80f42ecd0e719f2913b7e1b8912a9183ec4750460d95a8368349.enc"
+      "filename": "01e1e75103b7685ffa347952f381961488a205da90d4a1daeec028722b30dc0d.enc"
     },
     {
       "index": 4,
-      "filename": "4d3eeba2cd3a417d2491daf1cccba1949ecf07c306c7f5d323e5a3cc0d277868.enc"
+      "filename": "b1298dc12d4fbc446c1b345458726278746edb310b1b0f745958e85e86513390.enc"
     }
   ]
 }
