@@ -1,27 +1,52 @@
 {
   "schemaVersion": 3,
-  "builtAt": "2026-06-08T13:26:12.806Z",
+  "builtAt": "2026-06-09T06:40:38.914Z",
   "bizId": "biz-d78ed276d37e",
   "keyVersion": "v1",
   "wasmObfuscated": true,
   "dataPlane": {
-    "contractVersion": "1.0.0",
-    "namespace": "combination",
-    "indexEntry": "index.json",
-    "resolveStrategy": "convention",
-    "resolveConvention": {
-      "pattern": "{testType}/{id}.json"
+    "contractVersion": "2.0.0",
+    "collections": {
+      "tests": {
+        "indexPath": "collections/tests/index.json",
+        "idMapPath": "collections/tests/id-map.json",
+        "itemPathPattern": "collections/tests/by-id/{id}.json",
+        "schemaRef": "schemas/qiance-test.v1.json",
+        "metadataFields": [
+          "title",
+          "description",
+          "cover",
+          "status",
+          "createdAt",
+          "updatedAt"
+        ],
+        "searchableFields": [
+          "metadata.title",
+          "metadata.description",
+          "attributes.tags"
+        ],
+        "defaultSort": "updatedAt:desc"
+      }
     }
   },
+  "capabilities": {
+    "collections": true,
+    "getById": true,
+    "list": true,
+    "search": true,
+    "refresh": true
+  },
   "summary": {
-    "totalFiles": 7,
-    "totalSizeBytes": 310067,
+    "totalFiles": 17,
+    "totalSizeBytes": 643612,
     "prefixes": [
+      "collections/",
       "combination/",
       "dimension/",
       "generator/",
       "interactiveStory/",
       "multiPerson/",
+      "schemas/",
       "scoring/",
       "textInput/"
     ]
@@ -32,20 +57,20 @@
     "entryCount": 7
   },
   "manifest": {
-    "filename": "5b830b86f626b8bbe17f5a403dfc7db43e50d6e8a06a8c48cf511a52544817e8.enc",
+    "filename": "b5284265d89fa6811f6a2f81da88ecce480a34a5bc6241fb13ccb5bac4392374.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "0vsKRJ+pMkeNp6+O",
-    "tagBase64": "Uqp5m0Q2P2MgRDeRE4hV8g==",
+    "ivBase64": "VeteOTg1e0+1fXCW",
+    "tagBase64": "w6rqE1m6Nz/GxvX/yKOn/Q==",
     "ivLen": 12,
     "tagLen": 16,
-    "plaintextLen": 2644,
-    "ciphertextLen": 2644
+    "plaintextLen": 5947,
+    "ciphertextLen": 5947
   },
   "wasm": {
-    "filename": "88e133beec6aac8093a12f5733781f15f939b61a5058eb3c8b7473b2cb06e78d.enc",
+    "filename": "6ad3a3483de2aecefb6c41548091bf18fbb427bbbbfb865a92905b073cfcd1ba.enc",
     "algorithm": "aes-256-gcm",
-    "ivBase64": "a1logxvKx6jp3jMm",
-    "tagBase64": "ag+VHSuY6jLkmI47jfcrFA==",
+    "ivBase64": "vOaFi+iD44v5IY8x",
+    "tagBase64": "FAqGaR2mTexCboduJCQnZA==",
     "ivLen": 12,
     "tagLen": 16,
     "plaintextLen": 29404,
@@ -54,15 +79,15 @@
   "anchors": [
     {
       "index": 2,
-      "filename": "57c5e5dd43876e53333d0d78b9cbbac286c53c5a70fdf8313ea389953496400d.enc"
+      "filename": "0c77679e126147a25c12d8e99af4c68ed477bd37134624f194e318de73b52f45.enc"
     },
     {
       "index": 3,
-      "filename": "a2eb35427d9c0c7ea95dcd845479dfb86469269f2e04c00f11e65fa71d34b0d7.enc"
+      "filename": "e6d411cdcd1c80f42ecd0e719f2913b7e1b8912a9183ec4750460d95a8368349.enc"
     },
     {
       "index": 4,
-      "filename": "b259457def2c036b8711e0c033355b8dc3511a3e676b53129a335f0e4d4256cb.enc"
+      "filename": "4d3eeba2cd3a417d2491daf1cccba1949ecf07c306c7f5d323e5a3cc0d277868.enc"
     }
   ]
 }
